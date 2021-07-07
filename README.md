@@ -9,7 +9,7 @@ As an initial approach to simulate the drone navigation, the softwares Octave/Ma
 
 The goal of this project is to control the autonomous navigation of a drone, making use of the equations that describe its attitude (orientation) and position, such as any user can upload a path from 3D trajectories.
 
-![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/Autonomous%20UAV.mp4)
+![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/UAVsim.png)
 
 > This is a ReadMe template to help save you time and effort.
 
