@@ -46,7 +46,9 @@ The following state-space equations describe the UAV motion. The first three equ
 
 Two controllers are proposed to act in conjunction, where the first controller is based on Feedback input linearization technique (FC) that controls the position and the other known as Model Predictive controller (MPC) is in charge of controlling the vehicle's attitude.
 
-![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/controllopp.png)
+![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/controloop.png)
+
+
 
 
 ### Technologies
