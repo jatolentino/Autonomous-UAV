@@ -129,5 +129,11 @@ hp4=hp4*scale*R;
 
 zb = 0.21*scale;
 % 
+uavB(sizeuav+1)=patch(hp1(:,1)+dx,hp1(:,2)+dy,hp1(:,3)+dz,'k');
+uavB(sizeuav+2)=patch(hp2(:,1)+dx,hp2(:,2)+dy,hp2(:,3)+dz,'k');
+uavB(sizeuav+3)=patch(hp3(:,1)+dx,hp3(:,2)+dy,hp3(:,3)+dz,'k');
+uavB(sizeuav+4)=patch(hp4(:,1)+dx,hp4(:,2)+dy,hp4(:,3)+dz,'k');
+
+
 
 
