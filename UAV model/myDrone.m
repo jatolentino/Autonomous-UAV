@@ -81,4 +81,43 @@ hp3=[x' y'-2 z'];
 hp4=[x' y'+2 z'];
 
 zb=0.21;
+for k=1:length(hp1)-1  % IZQUIERDA
+    sp1=[hp1(k,1) hp1(k,2) 0;hp1(k+1,1) hp1(k+1,2) 0; hp1(k+1,1) hp1(k+1,2) zb; hp1(k,1)  hp1(k,2) zb]*scale*R;
+  uavB(sizeuav+k)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+if k==length(hp1)-1
+    sp1=[hp1(length(hp1),1) hp1(length(hp1),2) 0; hp1(1,1) hp1(1,2) 0; hp1(1,1) hp1(1,2) zb;hp1(length(hp1),1) hp1(length(hp1),2) zb]*scale*R;
+  uavB(sizeuav+k+1)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+end
+end
+sizeuav=sizeuav+k+1;
+for k=1:length(hp2)-1  % DERECHA
+    sp1=[hp2(k,1) hp2(k,2) 0;hp2(k+1,1) hp2(k+1,2) 0; hp2(k+1,1) hp2(k+1,2) zb; hp2(k,1)  hp2(k,2) zb]*scale*R;
+  uavB(sizeuav+k)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+if k==length(hp2)-1
+    sp1=[hp2(length(hp2)) hp2(length(hp2),2) 0; hp2(1,1) hp2(1,2) 0; hp2(1,1) hp2(1,2) zb;hp2(length(hp2),1) hp2(length(hp2),2) zb]*scale*R;
+  uavB(sizeuav+k+1)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+end
+end
+
+sizeuav=sizeuav+k+1;
+
+for k=1:length(hp3)-1
+    sp1=[hp3(k,1) hp3(k,2) 0;hp3(k+1,1) hp3(k+1,2) 0; hp3(k+1,1) hp3(k+1,2) zb; hp3(k,1)  hp3(k,2) zb]*scale*R;
+  uavB(sizeuav+k)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+if k==length(hp3)-1
+    sp1=[hp3(length(hp3)) hp3(length(hp3),2) 0; hp3(1,1) hp3(1,2) 0; hp3(1,1) hp3(1,2) zb;hp3(length(hp3),1) hp3(length(hp3),2) zb]*scale*R;
+   uavB(sizeuav+k+1)= patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+end
+end
+sizeuav=sizeuav+k+1;
+for k=1:length(hp4)-1
+    sp1=[hp4(k,1) hp4(k,2) 0;hp4(k+1,1) hp4(k+1,2) 0; hp4(k+1,1) hp4(k+1,2) zb; hp4(k,1)  hp4(k,2) zb]*scale*R;
+  uavB(sizeuav+k)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+if k==length(hp4)-1
+    sp1=[hp4(length(hp4)) hp4(length(hp4),2) 0; hp4(1,1) hp4(1,2) 0; hp4(1,1) hp4(1,2) zb;hp4(length(hp4),1) hp4(length(hp4),2) zb]*scale*R;
+   uavB(sizeuav+k+1)= patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
+end
+end
+
+sizeuav=sizeuav+k+1;
 
