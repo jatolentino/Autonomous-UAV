@@ -66,6 +66,19 @@ uavB(sizeuav+2)=patch(uavBody1(:,1)+dx,uavBody1(:,2)+dy,uavBody1(:,3)+dz,[1 1 1]
 
 
 %% MOTORS
+sizeuav=sizeuav+2;
 
+a=pi/10;
+th=pi/4:a:2*pi+pi/4;
 
+x=1.4142*cos(th)*0.15;
+y=1.4142*sin(th)*0.15;
+z=0*ones(1,length(th));
+
+hp1=[x'+1.92 y' z'];
+hp2=[x'-1.92 y' z'];
+hp3=[x' y'-2 z'];
+hp4=[x' y'+2 z'];
+
+zb=0.21;
 
