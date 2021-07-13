@@ -15,9 +15,9 @@ classdef plantConstants
    S = [20 0 0; 0 20 0; 0 0 20]     % Final horizon weights 
    R = [10 0 0; 0 10 0; 0 0 10]     % Input weights
    
-   % Mechanic & fluid properties
-   ct = 7.6184*10^(-8)*(60/(2*plantConstants.mypi))^2    % [N*s^2]
-   cq = 2.6839*10^(-9)*(60/(2*plantConstants.mypi))^2    % [N*s^2]
+   % coefficients
+   ct = 7.6184*10^(-8)*(60/(2*plantConstants.pi))^2    % [N*s^2]
+   cq = 2.6839*10^(-9)*(60/(2*plantConstants.pi))^2    % [N*s^2]
    end
    
 end
