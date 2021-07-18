@@ -67,7 +67,7 @@ Two controllers are proposed to act in conjunction, where the first controller i
 5. Set the UAV to show the drone
 6. Turn on the four UAV rotors
 7. Choose to use or not Machine learning option to enhace path tracking
-8. Finally start the simulation by clicking in the Initialize buttom
+8. Finally start the simulation by clicking in the Initialize button
 
 ### Installation
 ### If you have Matlab runtime (or simply the software Matlab)
