@@ -63,9 +63,9 @@ Two controllers are proposed to act in conjunction, where the first controller i
 1. Set the take of Point
 2. Set the Path starting point (landing pad)
 3. Choose the type of path to use
-4. Click in the Plot buttom, to set the desired path to be tracked and the landing pad to show up.
-5. click the Set UAV buttom to show the drone
-6. Turn on the UAV rotors from 1 to 4
+4. Plot the desired path to be tracked and the landing pad to show up
+5. Set the UAV to show the drone
+6. Turn on the four UAV rotors
 7. Choose if you want to use or not Machine learning
 8. Finally start the simulation by clicking in the Initialize buttom
 
