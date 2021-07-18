@@ -98,4 +98,3 @@ Please navigate to the Installer folder and download the UAVnav.exe file
 - Website - [some](https://some.com)
 
 [Back To The Top](#read-me-template)
-
