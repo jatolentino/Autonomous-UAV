@@ -66,7 +66,7 @@ Two controllers are proposed to act in conjunction, where the first controller i
 4. Plot the desired path to be tracked and the landing pad to show up
 5. Set the UAV to show the drone
 6. Turn on the four UAV rotors
-7. Choose if you want to use or not Machine learning
+7. Choose to use or not Machine learning option to enhace path tracking
 8. Finally start the simulation by clicking in the Initialize buttom
 
 ### Installation
