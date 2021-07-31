@@ -50,7 +50,6 @@ Two controllers are proposed to act in conjunction, where the first controller i
 
 
 
-
 ### Technologies
 
 - Matlab/Octave
