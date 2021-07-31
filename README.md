@@ -48,7 +48,6 @@ Two controllers are proposed to act in conjunction, where the first controller i
 
 ![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/controloop.png)
 
-
 ### Technologies
 
 - Matlab/Octave
