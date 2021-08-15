@@ -15,9 +15,9 @@ The goal of this project is to control the autonomous navigation of a drone, mak
 ---
 As an initial approach to simulate the drone navigation, the softwares Octave or Matlab have been utilized to provide trajectories and compute the equations of the state-space model. Due to the high non-linearities of the plant, a novel control method is yet to be tested and possibly compared against traditional control algorithms.  
 
-In the clip below, we conducted two test to demostrate that indeed, ML can enhance the tracking path and decrease the overshoot at the very beginning of the UAV autonomous navigation.
+In the clip below, we conducted two test to demostrate that indeed, ML can enhance the tracking path, decreasing the overshoot at the very beginning.
 
-![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/Autonomous-UAV.gif)
+![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/Autonomous%20UAV%20navigation.gif)
 
 ---
 
@@ -33,7 +33,6 @@ Feel free to download the software installer in the How-to-use section.
 
 ---
 
-
 ## Description
 ---
 ### Dynamics
@@ -45,56 +44,66 @@ The following state-space equations describe the UAV motion. The first three equ
 
 ### Control loop
 
-Two controllers are proposed to act in conjunction, where the first controller is based on Feedback input linearization technique (FC) that controls the position and the other known as Model Predictive controller (MPC) is in charge of controlling the vehicle's attitude.
+Two controllers are proposed to act in conjunction, the first controller is based on a Feedback input linearization technique (FC) that controls the position and the other method known as Model Predictive controller (MPC) is in charge of controlling the vehicle's attitude or orientation.
 
-![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/controloop.png)
+![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/controlloop.png)
+
 
 ### Technologies
 
 - Matlab/Octave
-- Aerospace toolboox
-- App designer
-    * Other 
 
-[Back To The Top](#read-me-template)
+
 ---
-## How To Use
-1. Set the take of Point
-2. Set the Path starting point (landing pad)
-3. Choose the type of path to use
-4. Plot the desired path to be tracked and the landing pad to show up
-5. Set the UAV to show the drone
-6. Turn on the four UAV rotors
-7. Choose to use or not Machine learning option to enhace path tracking
-8. Finally start the simulation by clicking in the Initialize button
 
-### Installation
-### If you have Matlab runtime (or simply the software Matlab)
-Please navigate to the Installer folder and download the UAVnav.exe file
 
-### If you don't have Matlab software
+## How to use
 
-#### API Reference
+### If you have Matlab or Octave
+- Navigte to the [`Test/`](./Test/) directory and execute the `mainTestconference.m` file, then input the first variable `n` that suggest the program not to use the Machine learning algorithm.
+A figure will show the UAV trajectory and predefined path, hit `TAB` after the simulation has been completed to run the next simulation with Machine Learning, observe both results to compare their performance, hit again `TAB` to the next other simulations.  
+- For further studies, use the function `mainTestconferenceNo.m` file located in [`Test/`](./Test/), and input the following command:
+    ```bash
+    mainTestconferenceNo('y',axes('XLim',[-r-5 r+5],'YLim',[-r-5 r+5],'ZLim',[0 finalHeight+5]),xtakeoff,'g',2)
+    ```
+    Being:  
+    * `'y'`: [y]es or [n]ot to  use Machine learning, `'n'` for not using it.
+    * `r`: the radious of the elipse in meters
+    * `finalHeight`: The maximun height that the spiral will reach in meters
+    * `xtakeoff`: The initial take off point of the UAV based in a XYZ coordinate system, in meters
+    * `g`: the color in which the UAV trajectory is going to be displayed, result of the control algorithm.
 
-```html
-    <p>dummy code</p>
-```
 
-[Back To The Top](#read-me-template)
 
 ---
 
 ## References
-[Back To The Top](#read-me-template)
+<a id="1">[1]</a> 
+C. Trapiello, V. Puig and B. Morcego, "Position-Heading Quadrotor Control using LPV Techniques". IET Control Theory & Applications, vol. 13, no. 6, 2019.  
+<a id="2">[2]</a> 
+K. Valavanis, G. Vachtsevanos, et al., "Handbook of Unmanned Aerial Vehicles", Aviation History and Unmanned Flight, pp. 135, 2015.  
+<a id="2">[3]</a> 
+M. Vasylenko, "Telemetry system of unmanned aerial vehicles", Electronics and Control Systems, vol 3, no.57, pp. 95-100.    
+<a id="3">[4]</a> 
+A. Salih, M. Moghavvemi, M. Haf, K. Gaeid, (2010). "Flight PID Controller Design for a UAV Quadrotor". Scientific Research and Essays, vol 5, pp. 3660-3667.  
+<a id="4">[5]</a> 
+H. Noshahri and H. Kharrati, "PID controller design for unmanned aerial vehicle using genetic algorithm," 2014 IEEE 23rd International Symposium on Industrial Electronics (ISIE), pp. 213-217, 2014.  
+<a id="5">[6]</a> 
+I. Ibraheem, A. Najm, "Nonlinear PID controller design for a 6-DOF UAV quadrotor system", Engineering Science and Technology, an International Journal, vol. 22, no. 4, pp. 1087-1097, 2019.  
+<a id="6">[7]</a> 
+P. Ru and K. Subbarao, "Nonlinear Model Predictive Control for Unmanned Aerial Vehicles", Aerospace, vol. 4, pp.2-31, 2017.  
+<a id="7">[8]</a> 
+J. Dentler, S. Kannan, M. A. O. Mendez and H. Voos, "A real-time model predictive position control with collision avoidance for commercial low-cost quadrotors," 2016 IEEE Conference on Control Applications (CCA), pp. 519-525, 2016.  
+<a id="8">[9]</a> 
+H. Cheng and Y. Yang, "Model predictive control and PID for path following of an unmanned quadrotor helicopter," 2017 12th IEEE Conference on Industrial Electronics and Applications (ICIEA), pp. 768-773, 2017.  
+<a id="2">[10]</a> 
+L. Singh and J. Fuller, "Trajectory generation for a UAV in urban terrain, using nonlinear MPC," Proceedings of the 2001 American Control Conference, vol.3, pp. 2301-2308, 2001.  
 
----
 
 
-## License
 
-## Author Info
+## Author's Info
 
-- Twitter - [jose.tolentino.v@uni.pe](https://twitter.com/some)
-- Website - [some](https://some.com)
+- Email - [jose.tolentino.v@uni.pe](jose_antoniotv@hotmail.com)
 
-[Back To The Top](#read-me-template)
+[//]: # "Comment this line() - Websie - [some](some@pe) "
