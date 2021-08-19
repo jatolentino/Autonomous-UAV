@@ -98,8 +98,6 @@ H. Cheng and Y. Yang, "Model predictive control and PID for path following of an
 L. Singh and J. Fuller, "Trajectory generation for a UAV in urban terrain, using nonlinear MPC," Proceedings of the 2001 American Control Conference, vol.3, pp. 2301-2308, 2001.  
 
 
-
-
 ## Author's Info
 
 - Email - [jose.tolentino.v@uni.pe](jose_antoniotv@hotmail.com)
