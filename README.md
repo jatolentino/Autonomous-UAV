@@ -53,9 +53,7 @@ Two controllers are proposed to act in conjunction, the first controller is base
 
 - Matlab/Octave
 
-
 ---
-
 
 ## How to use
 
