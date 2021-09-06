@@ -20,7 +20,6 @@ In the clip below, we conducted two test to demostrate that indeed, ML can enhan
 ![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/Autonomous%20UAV%20navigation.gif)
 
 ---
-
 ## Table of Contents
 
 Feel free to download the software installer in the How-to-use section.
