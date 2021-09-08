@@ -70,8 +70,6 @@ A figure will show the UAV trajectory and predefined path, hit `TAB` after the s
     * `xtakeoff`: The initial take off point of the UAV based in a XYZ coordinate system, in meters
     * `g`: the color in which the UAV trajectory is going to be displayed, result of the control algorithm.
 
-
-
 ---
 
 ## References
