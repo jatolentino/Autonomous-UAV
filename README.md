@@ -47,7 +47,6 @@ Two controllers are proposed to act in conjunction, the first controller is base
 
 ![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Images/control%20loop.png)
 
-
 ### Technologies
 
 - Matlab/Octave
