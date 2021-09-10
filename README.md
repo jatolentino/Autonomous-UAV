@@ -18,7 +18,6 @@ As an initial approach to simulate the drone navigation, the softwares Octave or
 In the clip below, we conducted two test to demostrate that indeed, ML can enhance the tracking path, decreasing the overshoot at the very beginning.
 
 ![Project Image](https://github.com/josetv91/Autonomous-UAV/blob/main/Videos/Autonomous%20UAV%20navigation.gif)
-
 ---
 ## Table of Contents
 
