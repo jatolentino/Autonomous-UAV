@@ -10,7 +10,6 @@ ct = pCs.ct;
 omegaSpeed = sqrt(m*g/(ct*12)); % yields 800
 initomegatotest = omegaSpeed + 1;
 
-
 omegamaxM = omegaSpeed:10:omegaSpeed + 500;
 omegamaxM = omegamaxM(2:end); % not choosing the first value
 omegaminM = omegaSpeed:-10:omegaSpeed - 500;
