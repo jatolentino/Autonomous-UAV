@@ -1,6 +1,7 @@
 clc; clear; close all;
 
 %function [xrefp,yrefp,zrefp,xfinal,yfinal,zfinal] = Functestcontrol(initomegatotest,omegamintotest,omegamaxtotest)
+
 pCs = plantConstants6;
 m = pCs.m;
 g = pCs.g;
@@ -8,7 +9,7 @@ numberMotors = 12;
 ct = pCs.ct;
 omegaSpeed = sqrt(m*g/(ct*12)); % yields 800
 initomegatotest = omegaSpeed + 1;
-%disp(initomegatotest)
+
 
 omegamaxM = omegaSpeed:10:omegaSpeed + 500;
 omegamaxM = omegamaxM(2:end); % not choosing the first value
