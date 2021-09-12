@@ -1,6 +1,6 @@
 clc; clear; close all;
-
-%function [xrefp,yrefp,zrefp,xfinal,yfinal,zfinal] = Functestcontrol(initomegatotest,omegamintotest,omegamaxtotest)
+% depends on this function
+% function [xrefp,yrefp,zrefp,xfinal,yfinal,zfinal] = Functestcontrol(initomegatotest,omegamintotest,omegamaxtotest)
 
 pCs = plantConstants6;
 m = pCs.m;
