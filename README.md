@@ -8,7 +8,7 @@ Based on my last research paper in 2021:
 
 > LPV-MPC control and self-tuning feedback gains for the trajectory tracking of a quadcopter UAV
 
-The goal of this project is to control the autonomous navigation of a drone, making use of the equations that describe its atitude and position an implenent a software and simulation environment that allows to test the performace when a Machine learning algorithm is added to the control system study.
+The goal of this project is to control the autonomous navigation of a drone, making use of the equations that describe its atitude and position and implement a software and simulation environment that allows to test and compare the performace  against a Machine learning algorithm added in the control system.
 
 ---
 ## Software Implementation: Matlab/Octave
