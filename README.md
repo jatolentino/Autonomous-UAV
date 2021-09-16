@@ -1,8 +1,5 @@
 # Autonomous UAV 
 
-![GitHub all releases](https://img.shields.io/github/downloads/josetv91/Autonomous-UAV/total?logo=GitHub&style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/josetv91/Autonomous-UAV)
-![GitHub language count](https://img.shields.io/github/languages/count/josetv91/Autonomous-UAV?color=success&logo=CodersRank&logoColor=%23FFFFFF)
 
 Based on my last research paper in 2021:
 
