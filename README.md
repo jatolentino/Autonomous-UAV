@@ -2,7 +2,7 @@
 ![Github All Releases](https://img.shields.io/github/downloads/josetv91/Autonomous-UAV/total?logo=GitHub&style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/josetv91/Autonomous-UAV)
 ![GitHub language count](https://img.shields.io/github/languages/count/josetv91/Autonomous-UAV?color=success&logo=CodersRank&logoColor=%23FFFFFF)
-
+[![version](https://img.shields.io/badge/version-1.1-red.svg)](//npmjs.com/package/Autonomous-UAV)
 
 Based on my last research paper in 2021:
 
