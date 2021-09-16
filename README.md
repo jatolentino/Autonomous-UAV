@@ -1,5 +1,5 @@
 # Autonomous UAV 
-
+![Github All Releases](https://img.shields.io/github/downloads/josetv91/Autonomous-UAV/total?logo=GitHub&style=plastic)
 
 Based on my last research paper in 2021:
 
