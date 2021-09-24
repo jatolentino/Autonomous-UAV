@@ -89,7 +89,6 @@ J. Dentler, S. Kannan, M. A. O. Mendez and H. Voos, "A real-time model predictiv
 H. Cheng and Y. Yang, "Model predictive control and PID for path following of an unmanned quadrotor helicopter," 2017 12th IEEE Conference on Industrial Electronics and Applications (ICIEA), pp. 768-773, 2017.  
 <a id="2">[10]</a> 
 L. Singh and J. Fuller, "Trajectory generation for a UAV in urban terrain, using nonlinear MPC," Proceedings of the 2001 American Control Conference, vol.3, pp. 2301-2308, 2001.  
-
 ## Author's Info
 
 - Email - [jose.tolentino.v@uni.pe](jose_antoniotv@hotmail.com)
