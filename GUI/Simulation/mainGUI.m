@@ -133,4 +133,3 @@ plot(handles.axes1 , x ,y);
 %planta = evalc('planta');
 %str = sprintf(
 %set(handles.text4,'string',num2str(suma));
-
