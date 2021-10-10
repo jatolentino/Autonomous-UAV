@@ -66,7 +66,6 @@ function varargout = testgui_1_OutputFcn(hObject, eventdata, handles)
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
 % Get default command line output from handles structure
 varargout{1} = handles.output;
 
