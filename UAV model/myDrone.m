@@ -97,7 +97,6 @@ if k==length(hp2)-1
   uavB(sizeuav+k+1)=patch(sp1(:,1)+dx,sp1(:,2)+dy,sp1(:,3)+dz,'k');
 end
 end
-
 sizeuav=sizeuav+k+1;
 
 for k=1:length(hp3)-1
