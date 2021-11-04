@@ -64,7 +64,6 @@ uavBody1=uavBody1*scale*R;
 uavB(sizeuav+1)=patch(uavBody(:,1)+dx,uavBody(:,2)+dy,uavBody(:,3)+dz,[1 1 1]);
 uavB(sizeuav+2)=patch(uavBody1(:,1)+dx,uavBody1(:,2)+dy,uavBody1(:,3)+dz,[1 1 1]);
 
-
 %% MOTORS
 sizeuav=sizeuav+2;
 
