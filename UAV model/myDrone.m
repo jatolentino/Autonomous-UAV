@@ -137,4 +137,3 @@ uavB(sizeuav+6)=patch(hp2(:,1)+dx,hp2(:,2)+dy,hp2(:,3)+zb+dz,'k');
 uavB(sizeuav+7)=patch(hp3(:,1)+dx,hp3(:,2)+dy,hp3(:,3)+zb+dz,'k');
 uavB(sizeuav+8)=patch(hp4(:,1)+dx,hp4(:,2)+dy,hp4(:,3)+zb+dz,'k');
 
-
