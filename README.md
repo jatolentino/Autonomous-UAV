@@ -30,7 +30,6 @@ Feel free to download the software installer in the How-to-use section.
 - [License](#license)
 - [Author's Info](#author-info)
 
-
 ---
 
 ## Description
