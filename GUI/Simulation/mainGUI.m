@@ -127,6 +127,7 @@ plot(handles.axes1 , x ,y);
 %num = eval(t1); % evalua caracter
 %den = eval(t2);
 
+
 %str = sprintf(
 %planta = tf(num,den);
 %suma = str2num(t1) + str2num(t2);
