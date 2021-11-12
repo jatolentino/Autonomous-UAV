@@ -57,7 +57,6 @@ handles.output = hObject;
 % Update handles structure
 guidata(hObject, handles);
 
-
 % UIWAIT makes testgui_1 wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
