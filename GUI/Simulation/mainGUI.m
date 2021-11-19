@@ -78,7 +78,6 @@ function edit1_Callback(hObject, eventdata, handles)
 % Hints: get(hObject,'String') returns contents of edit1 as text
 %        str2double(get(hObject,'String')) returns contents of edit1 as a double
 
-
 % --- Executes during object creation, after setting all properties.
 function edit1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
