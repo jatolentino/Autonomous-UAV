@@ -54,6 +54,7 @@ function testgui_1_OpeningFcn(hObject, eventdata, handles, varargin)
 % Choose default command line output for testgui_1
 handles.output = hObject;
 
+
 % Update handles structure
 guidata(hObject, handles);
 
