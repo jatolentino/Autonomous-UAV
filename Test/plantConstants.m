@@ -9,7 +9,7 @@ classdef plantConstants
    g = 9.807            % [m*s^2]   Earth gravity
    Jtp = 1.302*10^(-6)  % [N*m*s^2] = kg*m^2 Moment of inertia of the propellers
    Ts = 0.1             % [s]       Sample time
-   
+ 
    
    % Matrix weights
    Q = [10 0 0; 0 10 0; 0 0 10]     % Ouput weights
