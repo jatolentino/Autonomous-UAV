@@ -71,6 +71,7 @@ A figure will show the UAV trajectory and predefined path, hit `TAB` after the s
     * `g`: the color in which the UAV trajectory is going to be displayed, result of the control algorithm.
 ---
 
+
 ## References
 <a id="1">[1]</a> 
 C. Trapiello, V. Puig and B. Morcego, "Position-Heading Quadrotor Control using LPV Techniques". IET Control Theory & Applications, vol. 13, no. 6, 2019.  
