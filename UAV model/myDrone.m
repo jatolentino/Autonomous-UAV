@@ -67,7 +67,6 @@ uavB(sizeuav+2)=patch(uavBody1(:,1)+dx,uavBody1(:,2)+dy,uavBody1(:,3)+dz,[1 1 1]
 %% MOTORS
 sizeuav=sizeuav+2;
 
-
 a=pi/10;
 th=pi/4:a:2*pi+pi/4;
 
