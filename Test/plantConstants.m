@@ -19,5 +19,4 @@ classdef plantConstants
    ct = 7.6184*10^(-8)*(60/(2*plantConstants.pi))^2    % [N*s^2]
    cq = 2.6839*10^(-9)*(60/(2*plantConstants.pi))^2    % [N*s^2]
    end
- 
 end
