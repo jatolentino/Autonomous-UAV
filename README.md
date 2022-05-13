@@ -59,7 +59,7 @@ Two controllers are proposed to act in conjunction, the first controller is base
 ## How to use
 
 ### If you have Matlab or Octave
-- Navigte to the [`Test/`](./Test/) directory and execute the `mainTestconference.m` file, then input the first variable `n` that suggest the program not to use the Machine learning algorithm.
+- Navigate to the [`Test/`](./Test/) directory and execute the `mainTestconference.m` file, then input the first variable `n` that suggest the program not to use the Machine learning algorithm.
 A figure will show the UAV trajectory and predefined path, hit `TAB` after the simulation has been completed to run the next simulation with Machine Learning, observe both results to compare their performance, hit again `TAB` to the next other simulations.  
 - For further studies, use the function `mainTestconferenceNo.m` file located in [`Test/`](./Test/), and input the following command:
     ```bash
